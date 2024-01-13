@@ -1,0 +1,152 @@
+
+/* Header (h1) styling */
+header h1 {
+    font-family: 'Arial', sans-serif; /* You can choose a different font family if you like */
+    font-size: 2.5rem; /* Larger font size for main heading */
+    font-weight: bold; /* Bold font weight */
+    color: #eeeeee; /* A distinct color for the main header */
+    margin: 0;
+    padding: 0.5rem 0; /* Adjust padding as needed */
+}
+
+/* Article (h2) styling */
+article h2 {
+    font-family: 'Roboto', sans-serif; /* Consistent with the article content */
+    font-size: 1.8rem; /* Smaller than h1 but still prominent */
+    font-weight: 700; /* Slightly less bold than h1 */
+    color: #333; /* More subdued color compared to h1 */
+    margin-top: 0;
+    padding-top: 20px; /* Spacing from the top of the article or previous elements */
+}
+
+article h3 {
+    font-family: 'Roboto', sans-serif; /* Consistent with the article content */
+    font-size: 1.5rem; /* Smaller than h2 */
+    font-weight: 500; /* Lighter weight compared to h2 */
+    color: #555; /* Slightly darker color for distinction */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Spacing around the heading */
+}
+
+/* Scrolling pane */
+.main-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 80vh; /* Adjust height as needed */
+}
+
+/* Main body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('DALL·E 2024-01-13 11.50.36 - A colorful and detailed illustration of an ant hive bustling with activity, but each ant appears visibly unsure and indecisive. The ants have exaggera.png'); /* Path to your background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Header styling */
+/* Fixed header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation bar styling */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #444;
+    position: fixed;
+    width: 100%;
+    top: 75px; /* Adjust based on the height of the header */
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 100px; /* Adjust based on the total height of the header and nav */
+}
+
+/* Article styling */
+article {
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    font-size: 1.1rem; /* Slightly larger font size */
+    line-height: 1.6; /* Improved line height for readability */
+    color: #333; /* Optional: You can change the font color */
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Tilpass stilen til kalenderen */
+.calendar-container {
+    height: 800px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 40px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive grid for sections */
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Card-like containers */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #ff5252;
+}
+

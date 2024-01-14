@@ -1,36 +1,10 @@
-
-
-/* Main body styling */
 body {
-    font-family: 'Arial', sans-serif;
-    color: #ff0000;
-    background-color: #ee0000;
-    margin: 0;
-    padding: 0;
     background-image: url('DALL·E 2024-01-13 11.50.36 - A colorful and detailed illustration of an ant hive bustling with activity, but each ant appears visibly unsure and indecisive. The ants have exaggera.png'); /* Path to your background image */
     background-size: cover;
     background-attachment: fixed;
 }
 
-/* Header (h1) styling */
-header h1 {
-    font-family: 'Arial', sans-serif; /* You can choose a different font family if you like */
-    font-size: 2.5rem; /* Larger font size for main heading */
-    font-weight: bold; /* Bold font weight */
-    color: #eeeeee; /* A distinct color for the main header */
-    margin: 0;
-    padding: 0.5rem 0; /* Adjust padding as needed */
-}
-
-
-header {
-
-    background-color: #000000;
-    color: #fff;
-    padding: 1rem 0;
+h1 {
     text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    background-color: aqua;
 }
